@@ -1,0 +1,13 @@
+//@import "node_modules/bootstrap/scss/bootstrap";
+@import "src/sass/abstracts/variables";
+/* sass:scss */
+@import "src/sass/_01-index.scss";
+@import "src/sass/abstracts/_mixinis.scss";
+@import "src/sass/abstracts/_variables.scss";
+@import "src/sass/vendors/_bootstrap.scss";
+@import "src/sass/layout/_footer.scss";
+@import "src/sass/layout/_header.scss";
+@import "src/sass/layout/_main_content.scss";
+@import "src/sass/layout/_open-product.scss";
+@import "src/sass/layout/_side_menu.scss";
+/* endinject */

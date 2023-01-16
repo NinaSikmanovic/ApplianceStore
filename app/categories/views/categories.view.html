@@ -1,0 +1,71 @@
+<div class="side-menu d-flex flex-column gap-lg-4 gap-md-2" id="handlebars-render-id">
+    <div class="accordion accordion-flush sidenav-container" id="accordionFlushExample">
+        <div class="side-deep-green-div"><i class="fa fa-th text-light" aria-hidden="true"></i> <span
+                class="text-light"> Kupuj po kategoriji </span></div>
+        {{#each categories}}
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button id="category-button-1"
+                        class="sidenav-container-content accordion-button alto-color collapsed text-uppercase"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#{{id}}" aria-expanded="false"
+                        aria-controls="{{id}}">
+                    {{name}}
+                    {{#if children.length }}
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                    {{/if}}
+                </button>
+            </h2>
+            {{#if children.length }}
+            <div id="{{id}}" class="accordion-collapse collapse"
+                 aria-labelledby="flush-headingOne"
+                 data-bs-parent="#accordionFlushExample">
+                {{#each children}}
+                <div class="list-unstyled">
+                    <li><a class="dropdown-item" href="">{{ name }}</a></li>
+                </div>
+                {{/each}}
+            </div>
+            {{/if}}
+        </div>
+        {{/each}}
+    </div>
+    <div class="side-deep-green-div-for-search">
+        <div>
+            <i class="fa fa-envelope-o text-light" aria-hidden="true"></i>
+            <span class="text-uppercase text-light"> pretraga po brendu</span>
+        </div>
+        <div class="search-place" id="input-field"><input type="text" class="form-control input-text-size"
+                                                          placeholder="Unesite naziv brenda">
+            <i class="fa fa-search side-search-icon text-light"></i>
+        </div>
+    </div>
+    <img src="images/shoes.webp" class="side-menu-image-first">
+    <div class="side-deep-green-div-for-search d-flex flex-column">
+        <div>
+            <i class="fa fa-envelope-o text-light" aria-hidden="true"></i>
+            <span class="text-uppercase text-light"> prijavi se na newsletter</span>
+        </div>
+        <p class="text-light mt-4"> E-mail</p>
+        <input type="text" class="text-line input-height"/>
+        <p class="text-light mt-4"> Ime i prezime</p>
+        <input type="text" class="text-line input-height"/>
+        <input class="btn btn-check-in text-light mt4 text-uppercase" type="button" value="Prijavi se">
+    </div>
+    <div class="side-advert d-flex flex-column">
+        <img src="images/makita.jpeg" class="side-menu-image-second">
+        <h5 class="lorem-heading"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+        <p class="lorem-paragraph"> Morbi feugiat augue eget lorem congue, nec sollicitudin sapien
+            tincidunt.</p>
+        <input class="btn btn-check-in text-light mt4 text-uppercase" type="button" value="Opširnije">
+    </div>
+    <div class="side-advert d-flex flex-column">
+        <img src="images/makita.jpeg" class="side-menu-image-second">
+        <h5 class="lorem-heading"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+        <p class="lorem-paragraph"> Morbi feugiat augue eget lorem congue, nec sollicitudin sapien
+            tincidunt.</p>
+        <input class="btn btn-check-in text-light mt4 text-uppercase" type="button" value="Opširnije">
+    </div>
+    <img src="images/shoes.webp" class="side-menu-image-first">
+</div>

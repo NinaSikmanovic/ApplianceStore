@@ -1,0 +1,71 @@
+<div class="header">
+    <div class="header-top">
+        <div class="container-xl d-flex justify-content-between align-items-center">
+            <ul class="navbar-nav align-items-center flex-row text-center">
+                <li>
+                    <a class="text-dark"> <u>Engleski</u></a>
+                </li>
+                <li>
+                    <a class="px-3 nav-color ">Crnogorski</a>
+                </li>
+                <li class="display-none">
+                    <a class="px-3 nav-color ">Svakog dana od 08:00 do 21:00h, osim nedeljom Tel: +38220656772</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav align-items-center flex-row">
+                <li>
+                    <a href="#" class="nav-link nav-color px-3"> On-line podrska</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link nav-color px-3">Registracija</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link nav-color  px-3">Prijava</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-logo p-3">
+        <div class="container-xl d-flex header-logo-container justify-content-between align-items-center">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <div class="header-logo-search d-flex">
+                <input type="text" class="form-control search-input"
+                       placeholder="Unesite sifru ili pojam pretrazivanja" onkeypress="searchItem(event)">
+                <i class="fa fa-search search-icon"></i>
+                <a href="#" class="f_facebook"><i class="fa fa-f fa-facebook text-light"
+                                                  aria-hidden="true"></i></a> </li>
+            </div>
+            <div class="header-logo-shopping-cart">
+                <span class="header-logo-p text-uppercase"> moja korpa <span class="text-white"> 0.00€</span></span>
+                <i class="fa fa-f fa-shopping-cart" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    <nav class="header-navbar-container navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-list" id="navbarNavAltMarkup">
+            <div class="triangle triangle-left"></div>
+            <div class="container-xl d-flex flex-xs-column">
+                <a href="#" onclick="gohome()" class="navbar-list-div home"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a>
+                {{#each header}}
+                {{#if number}}
+                <div class="navbar-list-div p-0 border-right"><a class="a-weight nav-link  text-light a-font"
+                                                                 href="#"><span
+                        class="a-weight text-color">{{name}}
+                </span>
+                    <br>
+                    <span class="number-font-size">
+                   {{number}}</span></a></div>
+                {{else}}
+                <div class="navbar-list-div"><a class="a-weight nav-link text-light" href="#">{{name}}</a>
+                </div>
+                {{/if}}
+                {{/each}}
+            </div>
+            <div class="triangle triangle-right"></div>
+        </div>
+    </nav>
+</div>

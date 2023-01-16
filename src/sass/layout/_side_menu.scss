@@ -1,0 +1,171 @@
+.side-menu-and-main-content {
+  margin-top: 25px;
+
+  .sidenav-container {
+    background-color: $alto;
+
+    .sidenav-container-content {
+      background-color: $alto !important;
+      height: 10%;
+      border-bottom: 1px solid $gray;
+    }
+
+    .side-deep-green-div {
+      background-color: $deep-sea-green;
+      @include padding(10px);
+    }
+  }
+
+  .search-place {
+    margin-top: 10px;
+    @include size(90%, auto);
+    position: relative;
+
+    .input-text-size {
+      font-size: $font-size-14;
+    }
+
+    .side-search-icon {
+      position: absolute;
+      color: $azure-radiance !important;
+      top: 10px;
+      right: 10px;
+    }
+  }
+}
+
+.side-menu-image-first {
+  @include size(100%, auto);
+}
+
+.side-menu-image-second {
+  @include size(100%, auto);
+}
+
+.lorem-paragraph {
+  font-size: $font-size-12;
+}
+
+.lorem-heading {
+  font-weight: bolder;
+  margin-top: 5px;
+}
+
+.link-padding {
+  @include padding(16px);
+}
+
+.alto-color {
+  background-color: $alto;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  display: none;
+
+//  background-image: none;
+//  font-family: FontAwesome;
+//  //content: "\f067" !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
+  width: 0;
+}
+
+#category-button-1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-deep-green-div-for-search {
+  background-color: $deep-sea-green;
+  @include size(100%, auto);
+  @include padding(20px);
+}
+
+.btn-check-in {
+  background-color: $azure-radiance !important;
+  border-radius: 0px;
+  align-self: flex-start;
+  margin-top: 10px;
+}
+
+.text-line {
+  background-color: $deep-sea-green;
+  color: $white;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid $azure-radiance 1px;
+}
+
+.input-height {
+  height: 15px;
+}
+
+.accordion-header{
+  display: flex;
+}
+
+@media (max-width: 575px) {
+  .side-menu-image-first, .side-advert {
+    display: none !important;
+  }
+  .side-menu {
+    @include padding(0);
+  }
+  .main-content {
+    @include padding(0);
+  }
+}
+
+@media (max-width: 425px) {
+  .side-menu-and-main-content {
+    margin-top: 0 !important;
+
+    .search-place {
+      width: 100%;
+    }
+
+    .side-menu {
+      gap: 5px !important;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .side-menu-and-main-content {
+    font-size: $font-size-12;
+    margin-top: 15px;
+
+    .side-menu {
+      gap: 10px;
+
+      .sidenav-container-content {
+        font-size: $font-size-12;
+      }
+    }
+  }
+  .btn-check-in {
+    font-size: $font-size-14;
+  }
+}
+
+@media (max-width: 1024px) {
+  .side-menu-and-main-content {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 780px) {
+  .plus-icon {
+    margin-left: -12px;
+  }
+}

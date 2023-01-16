@@ -1,0 +1,155 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "bijela tehnika",
+      "children": [
+        {
+          "id": 2,
+          "name": "Frižideri"
+        },
+        {
+          "id": 3,
+          "name": "Veš mašine"
+        },
+        {
+          "id": 4,
+          "name": "Šporeti"
+        },
+        {
+          "id": 5,
+          "name": "Grejna tijela"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "ugradna tehnika",
+      "children": [
+        {
+          "id": 7,
+          "name": "Ugradne mikrotalasne rerne"
+        },
+        {
+          "id": 8,
+          "name": "Ugradne veš masine"
+        },
+        {
+          "id": 9,
+          "name": "Ugradni aparati za kafu"
+        },
+        {
+          "id": 10,
+          "name": "Ugradne rerne"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "klimatizacija i grijanje"
+    },
+    {
+      "id": 12,
+      "name": "mali kućni aparati",
+      "children": [
+        {
+          "id": 13,
+          "name": "fenovi"
+        },
+        {
+          "id": 14,
+          "name": "pegle za kosu"
+        },
+        {
+          "id": 15,
+          "name": "aparati za brijanje"
+        },
+        {
+          "id": 16,
+          "name": "depilatori"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "tv i video",
+      "children": [
+        {
+          "id": 18,
+          "name": "televizori"
+        },
+        {
+          "id": 19,
+          "name": "zvučnici"
+        },
+        {
+          "id": 20,
+          "name": "prejektori"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "audio",
+      "children": [
+        {
+          "id": 22,
+          "name": "pojačala"
+        },
+        {
+          "id": 23,
+          "name": "baterije"
+        },
+        {
+          "id": 24,
+          "name": "dvd oprema"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "telefonija",
+      "children": [
+        {
+          "id": 26,
+          "name": "mobilni telefoni"
+        },
+        {
+          "id": 27,
+          "name": "satovi i narukvice"
+        },
+        {
+          "id": 28,
+          "name": "dodatna oprema"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "kamere i fotoaparati"
+    },
+    {
+      "id": 30,
+      "name": "auto tehnika"
+    },
+    {
+      "id": 31,
+      "name": "računari i periferije"
+    },
+    {
+      "id": 32,
+      "name": "konzole i igrice"
+    },
+    {
+      "id": 33,
+      "name": "posteljine"
+    },
+    {
+      "id": 34,
+      "name": "kupovina preko t-coma"
+    }
+  ]
+}
+
+
+

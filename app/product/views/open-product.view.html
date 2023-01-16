@@ -1,0 +1,157 @@
+<div class="container-xl text-uppercase py-3 mine-shaft-color"> naslovna/proizvodi/<span
+        class="azure-radiance-color"> grupa robe</span></div>
+<div class="main-content-and-right-menu container-xl">
+    <div class="row">
+        <div class="main-content col-sm-9 d-flex flex-column" id="product-render-id">
+            <div class="open-product-image-and-information d-flex flex-column flex-md-row gap-lg-4 gap-sm-2">
+                <div class="open-product-image w-50">
+                    <img src="{{image}}" class="image-border">
+                    <div id="carouselExampleControlsNoTouching" class="carousel slide image-slider"
+                         data-bs-touch="false"
+                         data-bs-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="d-flex">
+                                    <img src="{{image}}" class="image-for-slider" alt="masina">
+                                    <img src="{{image}}" class="image-for-slider" alt="masina">
+                                    <img src="{{image}}" class="image-for-slider" alt="masina">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex">
+                                    <img src="{{image}}" class="image-for-slider" alt="masina">
+                                    <img src="{{image}}" class="image-for-slider" alt="masina">
+                                    <img src="{{image}}" class="image-for-slider" alt="masina">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev prev-button" type="button"
+                                data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next next-button" type="button"
+                                data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="information w-50">
+                    <h2><b>{{name}}</b></h2>
+                    <div class="d-flex align-items-center">
+                        <h1 class="azure-radiance-color"><b>{{price}}</b></h1>
+                        <div class="border-left-right px-2 mx-2"><h5 class="azure-radiance-color"> {{code}}</h5>
+                            <p class="margin-top">Šifra artikla</p>
+                        </div>
+                    </div>
+                    <p>Šifra artikla: 7248</p>
+                    <p>{{{properties}}}
+                    </p>
+                    <div class="d-flex flex-column">
+                        <div class="buy-product d-flex flex-column flex-xl-row justify-content-between m-top">
+                            <div class="d-flex align-items-center">
+                                <span> Količina:</span>
+                                <input type="text" class="size-of-input" id="number" value="1">
+                                <button onclick="addOne()" class="add"> +</button>
+                            </div>
+                            <div class="social-media-icons">
+                                <a href="#" class="fa btn-social-media fa-plus red-background text"
+                                   aria-hidden="true"></a>
+                                <span> Share:</span>
+                                <a href="#" class="fa btn-social-media fa-facebook"></a>
+                                <a href="#" class="fa btn-social-media fa-twitter"></a>
+                                <a href="#" class="fa btn-social-media fa-google"></a>
+                                <a href="#" class="fa btn-social-media fa-twitter"></a>
+                            </div>
+                        </div>
+                        <div class="cart d-flex mt-xl-4">
+                            <a href="#" class="btn-radius-border text-light"> <i class="fa fa-shopping-cart"
+                                                                                 aria-hidden="true"></i>
+                                Dodaj u korpu</a>
+                            <a href="#" class="btn-radius-border gray text-light m-left">provjeri korpu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <button class="nav-link active text-uppercase tablinks" onclick="openTab(event,'list1')"
+                            aria-current="page">Proizvodna lista
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link text-uppercase tablinks" onclick="openTab(event,'list2')">Upustvo za
+                        rukovanje
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link text-uppercase tablinks" onclick="openTab(event,'list3')">ocjena
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link text-uppercase tablinks" onclick="openTab(event,'list4')">e-mail
+                    </button>
+                </li>
+            </ul>
+            <div class="first-active tab-flex justify-content-around gray-border-tab tabcontent" id="list1">
+                <div>
+                    {{{tab1}}}
+                </div>
+                <div>
+                    {{{tab1}}}
+                </div>
+            </div>
+            <div class="tab-flex justify-content-around gray-border-tab tabcontent" id="list2">
+                <div>
+                    {{{tab2}}}
+                </div>
+                <div>
+                    {{{tab2}}}
+                </div>
+            </div>
+            <div class="tab-flex justify-content-around gray-border-tab tabcontent" id="list3">
+                <div>
+                    {{{tab3}}}
+                </div>
+                <div>
+                    {{{tab3}}}
+                </div>
+            </div>
+            <div class="tab-flex justify-content-around gray-border-tab tabcontent" id="list4">
+                <div>
+                    {{{tab4}}}
+                </div>
+                <div>
+                    {{{tab4}}}
+                </div>
+            </div>
+            <div class="line text-uppercase text-dark">
+                <b> slični proizvodi</b>
+            </div>
+        </div>
+        <div class="right-menu col-sm-3 d-flex flex-column">
+            <div class="videos d-flex flex-row flex-sm-column">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                            allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="side-deep-green-div-for-search d-flex flex-column">
+                <div>
+                    <i class="fa fa-envelope-o text-light" aria-hidden="true"></i>
+                    <span class="text-uppercase text-light"> prijavi se na newsletter</span>
+                </div>
+                <p class="text-light mt-4"> E-mail</p>
+                <input type="text" class="text-line input-height"/>
+                <p class="text-light mt-4"> Ime i prezime</p>
+                <input type="text" class="text-line input-height"/>
+                <input class="btn btn-check-in text-light mt4 text-uppercase" type="button" value="Prijavi se">
+            </div>
+        </div>
+    </div>
+</div>

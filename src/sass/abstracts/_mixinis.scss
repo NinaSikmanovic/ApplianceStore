@@ -1,0 +1,21 @@
+@mixin size($width,$height:auto) {
+  width: $width;
+  height: $height;
+}
+
+@mixin padding($padding) {
+  padding: $padding;
+}
+
+@mixin padding-2($top-bottom,$rigth-left) {
+  padding: $top-bottom $rigth-left;
+}
+
+@mixin padding-4($padding) {
+  padding: $padding;
+}
+
+@mixin margin($margin) {
+  margin: $margin;
+}
+

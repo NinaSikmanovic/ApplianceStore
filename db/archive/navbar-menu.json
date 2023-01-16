@@ -1,0 +1,29 @@
+{
+  "navbar-menu": [
+    {
+      "name" : "Akcija"
+    },
+    {
+      "name" : "Rasprodaja"
+    },
+    {
+      "name" : "Katalozi"
+    },
+    {
+      "name" : "Novosti"
+    },
+    {
+      "name" : "O nama"
+    },
+    {
+      "name" : "Uradi sam"
+    },
+    {
+      "name" : "Vip kartica"
+    },
+    {
+      "name" : "Informacije",
+      "child":  "tel:020 136 456"
+    }
+  ]
+}

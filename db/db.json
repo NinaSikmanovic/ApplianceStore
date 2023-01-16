@@ -1,0 +1,295 @@
+{
+  "categories": [
+    {
+      "id": "bijelaTehnikaId",
+      "name": "bijela tehnika",
+      "children": [
+        {
+          "id": 2,
+          "name": "Frižideri"
+        },
+        {
+          "id": 3,
+          "name": "Veš mašine"
+        },
+        {
+          "id": 4,
+          "name": "Šporeti"
+        },
+        {
+          "id": 5,
+          "name": "Grejna tijela"
+        }
+      ]
+    },
+    {
+      "id": "ugradnaTehnikaId",
+      "name": "ugradna tehnika",
+      "children": [
+        {
+          "id": 7,
+          "name": "Ugradne mikrotalasne rerne"
+        },
+        {
+          "id": 8,
+          "name": "Ugradne veš masine"
+        },
+        {
+          "id": 9,
+          "name": "Ugradni aparati za kafu"
+        },
+        {
+          "id": 10,
+          "name": "Ugradne rerne"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "klimatizacija i grijanje"
+    },
+    {
+      "id": "MaliKucniId",
+      "name": "mali kućni aparati",
+      "children": [
+        {
+          "id": 13,
+          "name": "fenovi"
+        },
+        {
+          "id": 14,
+          "name": "pegle za kosu"
+        },
+        {
+          "id": 15,
+          "name": "aparati za brijanje"
+        },
+        {
+          "id": 16,
+          "name": "depilatori"
+        }
+      ]
+    },
+    {
+      "id": "TvId",
+      "name": "tv i video",
+      "children": [
+        {
+          "id": 18,
+          "name": "televizori"
+        },
+        {
+          "id": 19,
+          "name": "zvučnici"
+        },
+        {
+          "id": 20,
+          "name": "prejektori"
+        }
+      ]
+    },
+    {
+      "id": "audioId",
+      "name": "audio",
+      "children": [
+        {
+          "id": 22,
+          "name": "pojačala"
+        },
+        {
+          "id": 23,
+          "name": "baterije"
+        },
+        {
+          "id": 24,
+          "name": "dvd oprema"
+        }
+      ]
+    },
+    {
+      "id": "telefonijaId",
+      "name": "telefonija",
+      "children": [
+        {
+          "id": 26,
+          "name": "mobilni telefoni"
+        },
+        {
+          "id": 27,
+          "name": "satovi i narukvice"
+        },
+        {
+          "id": 28,
+          "name": "dodatna oprema"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "kamere i fotoaparati"
+    },
+    {
+      "id": 30,
+      "name": "auto tehnika"
+    },
+    {
+      "id": 31,
+      "name": "računari i periferije"
+    },
+    {
+      "id": 32,
+      "name": "konzole i igrice"
+    },
+    {
+      "id": 33,
+      "name": "posteljine"
+    },
+    {
+      "id": 34,
+      "name": "kupovina preko t-coma"
+    }
+  ],
+  "products": [
+    {
+      "id": "fridge1",
+      "image": "images/fridge.jpeg",
+      "discount": "70%",
+      "name": "Gorenje WD 95140 frižider",
+      "time": "10 dan 6 sat 15min 10sek",
+      "price": "€200",
+      "code": "123 476 889",
+      "new-price": "€60",
+      "tab1": "Samostojeci: DA<br>Punjenje sprijeda: DA<br> Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>",
+      "tab2": "Samostojeci: NE<br>Punjenje sprijeda: DA<br> Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>",
+      "tab3": "Samostojeci: DA<br>Punjenje sprijeda: DA<br> Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>",
+      "tab4": "Samostojeci: NE<br>Punjenje sprijeda: DA<br> Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>",
+      "properties": "Broj okretanja cenrifuge: 1400,00 okr/min<br>Elektronsko upravljanje: DA<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg"
+    },
+    {
+      "id": "fridge2",
+      "image": "images/fridge3.webp",
+      "discount": "70%",
+      "name": "BOSH frižider",
+      "code": "122 426 889",
+      "time": "10 dan 6 sat 15min 10sek",
+      "price": "€400",
+      "new-price": "€60",
+      "tab1": "Samostojeci: DA<br>Punjenje sprijeda: DA<br> Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>",
+      "tab2": "Samostojeci: NE<br>Punjenje sprijeda: DA<br> Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>",
+      "tab3": "Samostojeci: DA<br>Punjenje sprijeda: DA<br> Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>",
+      "tab4": "Samostojeci: NE<br>Punjenje sprijeda: DA<br> Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>",
+      "properties": "Broj okretanja cenrifuge: 1400,00 okr/min<br>Elektronsko upravljanje: NE<br>Samostojeci: NE<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg"
+    },
+    {
+      "id": "fridge3",
+      "image": "images/fridge.jpeg",
+      "discount": "70%",
+      "name": "Gorenje frižider",
+      "code": "123 476 889",
+      "name": "Frizider",
+      "time": "10 dan 6 sat 15min 10sek",
+      "price": "€200",
+      "new-price": "€60",
+      "tab1": "Samostojeci: DA<br>Punjenje sprijeda: DA<br> Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>",
+      "tab2": "Samostojeci: NE<br>Punjenje sprijeda: DA<br> Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>",
+      "tab3": "Samostojeci: DA<br>Punjenje sprijeda: DA<br> Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>",
+      "tab4": "Samostojeci: NE<br>Punjenje sprijeda: DA<br> Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>",
+      "properties": "Broj okretanja cenrifuge: 1400,00 okr/min<br>Elektronsko upravljanje: DA<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg"
+    },
+    {
+      "id": "fridge4",
+      "discount": "70%",
+      "code": "123 176 089",
+      "image": "images/fridge3.webp",
+      "name": "BOSH frižider",
+      "time": "10 dan 6 sat 15min 10sek",
+      "price": "€400",
+      "new-price": "€60",
+      "tab1": "Samostojeci: DA<br>Punjenje sprijeda: DA<br> Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>",
+      "tab2": "Samostojeci: NE<br>Punjenje sprijeda: DA<br> Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>",
+      "tab3": "Samostojeci: DA<br>Punjenje sprijeda: DA<br> Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>",
+      "tab4": "Samostojeci: NE<br>Punjenje sprijeda: DA<br> Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg<br>Samostojeci: DA<br>",
+      "properties": "Broj okretanja cenrifuge: 1400,00 okr/min<br>Elektronsko upravljanje: DA<br>Samostojeci: DA<br>Punjenje sprijeda: DA<br>Kapacitet pranja: 9kg<br>Kapacitet sušenja: 7kg<br>Kapacitet nečeg: 7kg"
+    }
+  ],
+  "navbar-menu": [
+    {
+      "name": "Akcija"
+    },
+    {
+      "name": "Rasprodaja"
+    },
+    {
+      "name": "Katalozi"
+    },
+    {
+      "name": "Novosti"
+    },
+    {
+      "name": "O nama"
+    },
+    {
+      "name": "Uradi sam"
+    },
+    {
+      "name": "Vip kartica"
+    },
+    {
+      "name": "Kontakt"
+    },
+    {
+      "name": "Informacije",
+      "number": "tel:020 136 456"
+    }
+  ],
+  "footer-menu": [
+    {
+      "name": "Akcija",
+      "children": [
+        "O nama",
+        "Gdje kupiti",
+        "Zapošljenje",
+        "Aktivnosti"
+      ]
+    },
+    {
+      "name": "Rasprodaja",
+      "children": [
+        "Akcije",
+        "Noviteti",
+        "Rasprodaja",
+        "Marketing"
+      ]
+    },
+    {
+      "name": "Moja strana",
+      "children": [
+        "Registracija",
+        "Prijava",
+        "Korisnicka strana",
+        "Korpa"
+      ]
+    },
+    {
+      "name": "Placanje i dostava",
+      "children": [
+        "Načini plaćanja",
+        "Sigurnost plaćanja",
+        "Brza i pouzdana dostava",
+        "Odaberite datum dostave"
+      ]
+    },
+    {
+      "name": "Povrat i zamjena",
+      "children": [
+        "Servis",
+        "Reklamacije"
+      ]
+    }
+  ]
+}
+
+
+
+
+
