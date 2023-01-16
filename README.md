@@ -1,3 +1,3 @@
 ApplianceStore
 
-Start JSON Server: json-server --watch db.json
+Start JSON Server: json-server --watch db/db.json
