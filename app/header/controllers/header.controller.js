@@ -1,4 +1,5 @@
 var header;
+var test2;
 
 headerModule.controller = function (){
     return{
