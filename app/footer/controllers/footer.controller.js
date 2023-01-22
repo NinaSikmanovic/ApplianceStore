@@ -1,4 +1,5 @@
 var footer;
+var test;
 
 footerModule.controller = function (){
     return {
